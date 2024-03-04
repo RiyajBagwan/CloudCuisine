@@ -16,7 +16,6 @@ import com.app.service.RestaurentServiceImpl;
 
 @RestController
 @RequestMapping("/resto")
-@CrossOrigin
 public class RestaurentController 
 {	
 	@Autowired

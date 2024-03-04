@@ -16,7 +16,6 @@ import com.app.service.UserServiceImpl;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin
 public class UserController {
 
 	@Autowired

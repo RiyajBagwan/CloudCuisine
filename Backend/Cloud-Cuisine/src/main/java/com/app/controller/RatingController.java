@@ -17,7 +17,6 @@ import com.app.service.RatingServiceImpl;
 
 @RestController
 @RequestMapping("/rating")
-@CrossOrigin
 public class RatingController {
 	
 	@Autowired

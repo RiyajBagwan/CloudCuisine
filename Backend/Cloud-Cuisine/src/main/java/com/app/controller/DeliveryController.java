@@ -17,7 +17,6 @@ import com.app.service.DeliveryServiceImpl;
 
 @RestController
 @RequestMapping("/delivery")
-@CrossOrigin
 public class DeliveryController {
 	
 	@Autowired

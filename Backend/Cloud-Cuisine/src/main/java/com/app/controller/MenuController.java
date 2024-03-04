@@ -31,7 +31,6 @@ import com.app.service.MenuServiceImpl;
 
 @RestController
 @RequestMapping("/menu")
-@CrossOrigin
 public class MenuController 
 {
 	@Autowired

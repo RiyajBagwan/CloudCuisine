@@ -14,7 +14,6 @@ import com.app.service.UserServiceImpl;
 
 @RestController
 @RequestMapping("/admin")
-@CrossOrigin
 public class AdminController {
 
 	@Autowired

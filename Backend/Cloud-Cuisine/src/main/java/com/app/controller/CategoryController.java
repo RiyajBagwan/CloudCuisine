@@ -23,7 +23,6 @@ import com.app.service.CategoryServiceImpl;
 
 @RestController
 @RequestMapping("/category")
-@CrossOrigin
 public class CategoryController {
 	
 	@Autowired

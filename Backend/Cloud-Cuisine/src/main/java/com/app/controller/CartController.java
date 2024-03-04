@@ -23,7 +23,6 @@ import com.app.service.CartServiceImpl;
 
 @RestController
 @RequestMapping("/cart")
-@CrossOrigin
 public class CartController {
 	@Autowired
 	private CartServiceImpl cartService;
