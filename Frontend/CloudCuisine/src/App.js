@@ -40,7 +40,7 @@ function App() {
   useEffect(() => {
     const isLoggedIn = sessionStorage.getItem('isLoggedIn');
 
-    if (!isLoggedIn && window.location.pathname !== '/signin' && window.location.pathname !== '/signup' && window.location.pathname !== '/') {
+    if (!isLoggedIn && window.location.pathname !== '/signin' && window.location.pathname !== '/signup' && window.location.pathname !== '/' && window.location.pathname !== '/contactUs') {
       window.location.href = '/signin';
     }
 
